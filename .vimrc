@@ -1,88 +1,87 @@
-" ## General ##
-
+" #
+" ## GENERAL ##
+"
 set nocompatible
-
-" Encodage par défaut des buffers en utf-8
+" hidden buffer
+set hidden
+" utf-8 buffer
 set encoding=utf-8
-" Encodage par défaut des fichiers en utf-8
+" utf-8 files
 set fileencoding=utf-8
-
 " enable mouse usage
 set mouse=a
-
-" Indentation par les plugins
+" to work with tmux
+set ttymouse=xterm2
+" plugin indent
 set noautoindent
 filetype indent plugin on
-
+" replace blank chars
 set list listchars=tab:│·,nbsp:␣,trail:•,extends:⟩,precedes:⟨
-
-" Parenthèses électriques
+" electric parenthesis
 set showmatch
-
-" Coloration syntaxique
+" syntax color
 syntax on
-
-" Pour les fichiers shell script
-" - corrige la coloration syntaxique
+" syntax color correction for :
+"  - script sh
 autocmd FileType sh let g:is_posix = 1
-
+"  - asm
 autocmd BufRead *.s set ft=nasm
 autocmd BufRead *.S set ft=nasm
 autocmd BufRead *.asm set ft=nasm
-
-" Numerotation des lignes
+" line number
 set number
 set relativenumber
-
-" Permet d'ouvrir plusieurs fichiers (hidden buffer)
-set hidden
-
 " 4-char hard tab
 set shiftwidth=4
 set tabstop=4
-
-" Show current command
+" show current command
 set showcmd
-
-" Affichage du mode dans la barre de statut
+" show mode in status bar
 set showmode
 
-" ## Recherche ##
 
-" Retourne au début après avoir atteint la fin
+" #
+" ## SEARCH ##
+" #
+
+" loop search
 set wrapscan
-" Press F1 to toggle highlighting on/off, and show current value.
-noremap <F9> :set hlsearch! hlsearch?<CR>
+" Press F4 to toggle highlighting on/off, and show current value.
+noremap <F4> :set hlsearch! hlsearch?<CR>
 set incsearch
 " case insensitive search... except if uppercase
 set ignorecase
 set smartcase
 
-" ## Completion ##
 
-" Complétion dans la barre de commande
+" #
+" ## COMPLETION ##
+" #
+
+" command completion
 set wmnu
 set wildmode=list:longest,list:full
-" Fichiers ignorés lors de la complétion
+" ignored files
 set wildignore=*.o,*.r,*.so,*.sl
-  
-" Complétion en mode insertion
+" insertion mode completion
 set completeopt=longest,menuone
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
   \ '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 inoremap <expr> <M-,> pumvisible() ? '<C-n>' :
   \ '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
-
-" Complétion par dictionnaire (Ctrl-x Ctrl-k) 
+" dictionary completion (Ctrl-x Ctrl-k)
 set dictionary+=/usr/share/dict/american-english
 
-" ## Plugins ##
 
-" F2 to toggle
+" #
+" ## PLUGINS ##
+" #
+
+" F2 to toggle NERDTree
 map <F2> :NERDTreeToggle<CR>
-" Show hidden files
+" show hidden files
 let NERDTreeShowHidden=1
-" If opening vim without file, open NERDTree
+" if opening vim without file, open NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
