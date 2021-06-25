@@ -1,0 +1,20 @@
+- /dev/*
+- /proc/*
+- /sys/*
+- /tmp/*
+- /run/*
+- /mnt/*
+- /var/lib/dhcpcd/*
+- /lost+found
+- /home/iblis/thumbnails/*
+- /home/iblis/.cache/*
+- /home/iblis/.local/share/Trash/*
+- /home/iblis/.gvfs
+- /home/iblis/.local/share/Steam/*
+- /home/iblis/.steam
+- /home/iblis/.steampath
+- /home/iblis/.steampid
+- /home/iblis/Games
+- /home/iblis/vm
+- /home/iblis/VirtualBox\ VMs
+- /home/gmorizur

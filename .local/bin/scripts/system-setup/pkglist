@@ -1,0 +1,111 @@
++ amd-ucode
+baobab
++ base
+? bluez-utils
+bridge-utils
+cheese
+code
+conky
+dhclient
+discord
+dkms
+dmidecode
+dnsmasq
+ebtables
++ efibootmgr
+efitools
+eog
+evince
+file-roller
+firefox
++ fprintd
+gdb
+gdm
+gedit
++ git
+gnome-boxes
+gnome-calculator
+gnome-calendar
+gnome-characters
+gnome-clocks
+gnome-color-manager
+gnome-control-center
+gnome-disk-utility
+gnome-documents
+gnome-font-viewer
+gnome-getting-started-docs
+gnome-keyring
+gnome-logs
+gnome-menus
+gnome-photos
+gnome-remote-desktop
+gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+gnome-software
+gnome-system-monitor
+gnome-terminal
+gnome-themes-extra
+gnome-tweaks
+gnome-user-docs
+gnome-user-share
+gnome-video-effects
+grilo-plugins
++ grub
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+hdparm
++ htop
+keepassxc
++ linux
+linux-firmware
+linux-headers
++ lvm2
++ man-db
++ man-pages
+mutter
+nautilus
+neofetch
++ networkmanager
+openbsd-netcat
+orca
+powertop
+profile-sync-daemon
++ rsync
+ruby
+ruby-bundler
+rygel
+simple-scan
+smartmontools
+steam
++ sudo
+sushi
++ texinfo
++ tmux
+? torsocks
+tracker
+tracker-miners
+tracker3-miners
+valgrind
++ vim
+vino
++ virt-install
+virt-manager
+virt-viewer
+vlc
+wpa_supplicant
+xdg-user-dirs-gtk
+xorg-server
+xsel
+yelp
++ zsh
++ bspwm
++ xfce
