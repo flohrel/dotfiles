@@ -1,0 +1,13 @@
+[2021-04-18 23:42:17.181] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-18 23:42:54.529] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-04-18 23:42:54.636] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2021-04-18 23:42:55.392] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers undefined
+[2021-04-18 23:42:55.447] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker undefined
+[2021-04-18 23:42:56.338] [sharedprocess] [info] Extracted extension to /home/user42/.vscode/extensions/.bbc01541-fda3-4b7c-b4a3-7db6bcb6cab3: ms-azuretools.vscode-docker
+[2021-04-18 23:42:56.377] [sharedprocess] [info] Renamed to /home/user42/.vscode/extensions/ms-azuretools.vscode-docker-1.12.1
+[2021-04-18 23:42:56.385] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2021-04-18 23:42:56.538] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2021-04-18 23:42:57.138] [sharedprocess] [info] Extracted extension to /home/user42/.vscode/extensions/.31d8df6c-f8cd-479e-befc-928fdf6c20a7: ms-vscode-remote.remote-containers
+[2021-04-18 23:42:57.164] [sharedprocess] [info] Renamed to /home/user42/.vscode/extensions/ms-vscode-remote.remote-containers-0.166.1
+[2021-04-18 23:42:57.167] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-containers
+[2021-04-18 23:42:57.172] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-containers

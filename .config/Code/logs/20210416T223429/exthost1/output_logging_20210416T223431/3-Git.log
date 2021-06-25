@@ -1,0 +1,41 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/user42/code/perso/minishell
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s 52d9880e62926a6e142cca6f46b8dbe9d3cf2434
+> git show --textconv :incld/minishell.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/minishell.h
+> git cat-file -s 6882bf805fa31098c33c39b1ab805cb00cc22399
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s 52d9880e62926a6e142cca6f46b8dbe9d3cf2434
+> git show --textconv :incld/minishell.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/minishell.h
+> git cat-file -s 6882bf805fa31098c33c39b1ab805cb00cc22399
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s 52d9880e62926a6e142cca6f46b8dbe9d3cf2434
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 38c0b1bc71bcda6c0aedbc12c2bc7103a6521777
+> git show --textconv :src/main.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/main.c
+> git cat-file -s d4af54665ea5a5a886869fb2ae27c05619dfd91a
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 38c0b1bc71bcda6c0aedbc12c2bc7103a6521777

@@ -67,6 +67,7 @@
       <property name="square-icons" type="bool" value="false"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="software-update-available"/>
         <value type="string" value="nm-applet"/>
       </property>
     </property>
@@ -75,7 +76,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="firefox.instance1896;firefox.instance1962;firefox.instance1969;firefox.instance2075;firefox.instance2149;firefox.instance2182;firefox.instance2266;firefox.instance2538;firefox.instance4545;parole"/>
+      <property name="mpris-players" type="string" value="firefox.instance1896;firefox.instance1962;firefox.instance1969;firefox.instance2075;firefox.instance2149;firefox.instance2182;firefox.instance2213;firefox.instance2222;firefox.instance2266;firefox.instance2327;firefox.instance2538;firefox.instance4545;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-10" type="string" value="separator">

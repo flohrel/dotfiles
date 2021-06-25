@@ -1,0 +1,203 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/user42/code/perso/minishell
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :incld/data.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/data.h
+> git cat-file -s 797507476162ca90147e197a873df71151d346f2
+> git show --textconv :incld/exit.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/exit.h
+> git cat-file -s 868b478d321eb2330b22e7435f1efd9adc00aa45
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s c8d3582579e07112920eef9d3a95efaad3e04f8b
+> git show --textconv :incld/minishell.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/minishell.h
+> git cat-file -s 75227e758a22087ce73114ddbcd090039683217a
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s c8d3582579e07112920eef9d3a95efaad3e04f8b
+> git show --textconv :incld/exit.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/exit.h
+> git cat-file -s 868b478d321eb2330b22e7435f1efd9adc00aa45
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s c8d3582579e07112920eef9d3a95efaad3e04f8b
+> git show --textconv :incld/exit.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/exit.h
+> git cat-file -s 868b478d321eb2330b22e7435f1efd9adc00aa45
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s c8d3582579e07112920eef9d3a95efaad3e04f8b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :incld/minishell.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/minishell.h
+> git cat-file -s 75227e758a22087ce73114ddbcd090039683217a
+> git show --textconv :incld/prompt.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/prompt.h
+> git cat-file -s b0a99ad3dc45ab5869489669003464e72b43b380
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s c8d3582579e07112920eef9d3a95efaad3e04f8b
+> git show --textconv :incld/exit.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/exit.h
+> git cat-file -s 868b478d321eb2330b22e7435f1efd9adc00aa45
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s c8d3582579e07112920eef9d3a95efaad3e04f8b
+> git show --textconv :incld/minishell.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/minishell.h
+> git cat-file -s 75227e758a22087ce73114ddbcd090039683217a
+> git show --textconv :incld/prompt.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/prompt.h
+> git cat-file -s b0a99ad3dc45ab5869489669003464e72b43b380
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :src/exit.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/exit.c
+> git cat-file -s 21412c6fdb27a4c439e0725b2fed24c302f13491
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git check-ignore -v -z --stdin
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :src/lexer/lexer2.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer2.c
+> git cat-file -s e9951f3f05d8b5981c42dfa25fcb91eac7f75058
+> git show --textconv :src/exit.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/exit.c
+> git cat-file -s 21412c6fdb27a4c439e0725b2fed24c302f13491
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :src/main.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/main.c
+> git cat-file -s 141a63c11f96d4c7bc44746429f4ddcffb2dade1
+> git show --textconv :src/prompt.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/prompt.c
+> git cat-file -s e2b6bf4a879f5ce5610618fdcc47f8edbfd856ff
+> git show --textconv :src/exit.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/exit.c
+> git cat-file -s 21412c6fdb27a4c439e0725b2fed24c302f13491
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :incld/prompt.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/prompt.h
+> git cat-file -s b0a99ad3dc45ab5869489669003464e72b43b380
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :incld/lexer.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/lexer.h
+> git cat-file -s c8d3582579e07112920eef9d3a95efaad3e04f8b
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :incld/prompt.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/prompt.h
+> git cat-file -s b0a99ad3dc45ab5869489669003464e72b43b380
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :incld/prompt.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/prompt.h
+> git cat-file -s b0a99ad3dc45ab5869489669003464e72b43b380
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :incld/prompt.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/prompt.h
+> git cat-file -s b0a99ad3dc45ab5869489669003464e72b43b380
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :incld/prompt.h
+> git ls-files --stage -- /home/user42/code/perso/minishell/incld/prompt.h
+> git cat-file -s b0a99ad3dc45ab5869489669003464e72b43b380
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :src/lexer/lexer2.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer2.c
+> git cat-file -s e9951f3f05d8b5981c42dfa25fcb91eac7f75058
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 59d599be895f3e21fb1d7ceb96639394b020dc37
+> git show --textconv :src/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git cat-file -s 2caa97a2e1049df5f832e1d3a5d85949f763ce65
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer.c
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :src/lexer.c
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/flohrel refs/remotes/flohrel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/lexer/lexer.c
+> git ls-files --stage -- /home/user42/code/perso/minishell/src/lexer/lexer.c
+> git cat-file -s 7fbb4bd9768fbd32600d019f391a8a9f3eaafa9c

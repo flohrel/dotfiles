@@ -1,14 +1,17 @@
 [global_config]
+  tab_position = bottom
   title_inactive_bg_color = "#292929"
   title_inactive_fg_color = "#f8f8f8"
   title_transmit_bg_color = "#171717"
   title_transmit_fg_color = "#f8f8f8"
+  window_state = maximise
 [keybindings]
   help = F12
 [layouts]
   [[default]]
     [[[child1]]]
       parent = window0
+      profile = default
       type = Terminal
     [[[window0]]]
       parent = ""

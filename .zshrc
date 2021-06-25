@@ -118,7 +118,6 @@ alias ggc='gcc -Wall -Werror -Wextra'
 alias ll='ls -lArth'
 alias la='ls -A'
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias norminette="~/.norminette/norminette.rb"
 alias cat="ccat"
 
 export MAIL='flohrel@student.42.fr'
