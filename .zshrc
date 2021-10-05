@@ -118,13 +118,11 @@ alias ggc='gcc -Wall -Werror -Wextra'
 alias ll='ls -lArth'
 alias la='ls -A'
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias norminette="~/.norminette/norminette.rb"
 alias cat="ccat"
+alias upd="sudo apt-get update && sudo apt-get dist-upgrade ; python3 -m pip install --upgrade norminette"
 
 export MAIL='flohrel@student.42.fr'
 export USER='flohrel'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-eval `dircolors ~/.dir_colors/dircolors`

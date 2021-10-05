@@ -67,6 +67,8 @@
       <property name="square-icons" type="bool" value="false"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="software-update-available"/>
+        <value type="string" value="blueman"/>
         <value type="string" value="nm-applet"/>
       </property>
     </property>

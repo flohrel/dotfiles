@@ -1,3 +1,6 @@
+execute pathogen#infect()
+
+
 " ## General ##
 
 set nocompatible
@@ -14,7 +17,7 @@ set mouse=a
 set noautoindent
 filetype indent plugin on
 
-set list listchars=tab:│·,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+set list listchars=tab:│\ ,nbsp:␣,trail:•,extends:⟩,precedes:⟨
 
 " Parenthèses électriques
 set showmatch
@@ -79,10 +82,11 @@ set dictionary+=/usr/share/dict/american-english
 
 " ## Plugins ##
 
-" F2 to toggle
+" F2 to toggle NerdTree
 map <F2> :NERDTreeToggle<CR>
 " Show hidden files
 let NERDTreeShowHidden=1
 " If opening vim without file, open NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+noremap <F4> :HeaderguardAdd<CR>
