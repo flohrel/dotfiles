@@ -46,7 +46,9 @@
         <value type="string" value="network"/>
         <value type="string" value="applet networkmanager"/>
         <value type="string" value="networkmanager applet"/>
+        <value type="string" value="xfce terminal"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="thunar"/>
         <value type="string" value="réseau"/>
       </property>
     </property>
@@ -76,7 +78,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="firefox.instance1896;firefox.instance1962;firefox.instance1969;firefox.instance2075;firefox.instance2149;firefox.instance2182;firefox.instance2213;firefox.instance2222;firefox.instance2266;firefox.instance2327;firefox.instance2538;firefox.instance4545;parole"/>
+      <property name="mpris-players" type="string" value="firefox.instance10735;firefox.instance1896;firefox.instance1962;firefox.instance1969;firefox.instance2075;firefox.instance2149;firefox.instance2182;firefox.instance2213;firefox.instance2222;firefox.instance2266;firefox.instance2327;firefox.instance2397;firefox.instance2538;firefox.instance3014;firefox.instance3019;firefox.instance4045;firefox.instance4545;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-10" type="string" value="separator">

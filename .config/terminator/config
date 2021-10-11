@@ -6,7 +6,8 @@
   title_transmit_fg_color = "#f8f8f8"
   window_state = maximise
 [keybindings]
-  help = F12
+  help = None
+  hide_window = F12
 [layouts]
   [[default]]
     [[[child1]]]

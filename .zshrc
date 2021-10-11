@@ -119,6 +119,7 @@ alias ll='ls -lArth'
 alias la='ls -A'
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias cat="ccat"
+alias upd="sudo apt-get update && apt-get dist-upgrade ; python3 -m pip -upgrade pip norminette"
 
 export MAIL='flohrel@student.42.fr'
 export USER='flohrel'
