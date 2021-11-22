@@ -28,12 +28,10 @@
 			"class ${1:$TM_FILENAME_BASE}",
 			"{",
 			"\tpublic:",
-			"\t\t${1:$TM_FILENAME_BASE}( ${2:$BLOCK_COMMENT_START args $BLOCK_COMMENT_END} );",
+			"\t\t${1:$TM_FILENAME_BASE}( void );",
 			"\t\t${1:$TM_FILENAME_BASE}( ${1:$TM_FILENAME_BASE} const & src );",
 			"\t\t~${1:$TM_FILENAME_BASE}( void );",
-			"\n",
-			"\tprivate:",
-			"\t\t${4:$BLOCK_COMMENT_START foo(); $BLOCK_COMMENT_END}\n",
+			"\n\t\t${1:$TM_FILENAME_BASE} &\toperator=( ${1:$TM_FILENAME_BASE} const & rhs );\n",
 			"};"
 		],
 		"description": "Coplien/Canonical form"

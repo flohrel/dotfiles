@@ -14,3 +14,11 @@
 [2021-11-22 08:20:53.485] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 [2021-11-22 08:20:53.491] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 [2021-11-22 08:20:53.515] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-22 08:37:17.644] [exthost] [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:cpp'
+[2021-11-22 08:37:17.828] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+[2021-11-22 08:37:32.197] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-22 08:38:06.004] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-22 08:38:45.997] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-22 08:39:40.890] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-22 08:40:57.873] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-22 08:41:54.355] [exthost] [warning] TextEditor is closed/disposed
