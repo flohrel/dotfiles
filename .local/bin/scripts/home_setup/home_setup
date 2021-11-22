@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-GIT_URL='https://github.com/GMorizur/dotfiles.git'
+GIT_URL='https://github.com/flohrel/dotfiles.git'
+
 
 ## oh-my-zsh
 
@@ -40,10 +41,13 @@ done < $DIR/plugins
 git clone --depth=1 "https://github.com/romkatv/powerlevel10k.git" "$CUSTOM/themes/powerlevel10k"
 
 
-## VIM nerdtree
+## VIM
 
-git clone "https://github.com/preservim/nerdtree.git" "$HOME/.vim/pack/vendor/start/nerdtree" && \
-vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
+#git clone "https://github.com/preservim/nerdtree.git" "$HOME/.vim/pack/vendor/start/nerdtree" && \
+#vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 
 cd $HOME
 

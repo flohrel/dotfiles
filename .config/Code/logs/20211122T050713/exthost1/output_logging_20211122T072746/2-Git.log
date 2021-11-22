@@ -1,0 +1,102 @@
+Validating found git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /home/user42/code/perso/cpp
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show -s --format=%an <%ae> [%ai] 3b0dad7e5cd3f406bfc803ce02e0677433a525d9
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 3b0dad7e5cd3f406bfc803ce02e0677433a525d9
+> git show -s --format=%an <%ae> [%ai] 3e9383f33a678fc857d2bb2c9773398b8bd4d01f
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 3e9383f33a678fc857d2bb2c9773398b8bd4d01f
+> git show -s --format=%an <%ae> [%ai] 6c6745dd6e22ba7643e9587bad690ba977a93376
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 6c6745dd6e22ba7643e9587bad690ba977a93376
+> git show -s --format=%an <%ae> [%ai] eaf055f9dfcc0028d03b491b600900d7c61accb0
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z eaf055f9dfcc0028d03b491b600900d7c61accb0
+> git show -s --format=%an <%ae> [%ai] 2a72c9bb98ce7f3131de1fce1edc68539b315a96
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 2a72c9bb98ce7f3131de1fce1edc68539b315a96
+> git show -s --format=%an <%ae> [%ai] 29540f843ae672b749cb59ad568b4bd9de9a56ae
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 29540f843ae672b749cb59ad568b4bd9de9a56ae
+> git show -s --format=%an <%ae> [%ai] 23d95a234187f3ad28e433f4fba2faa0196dafa2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 23d95a234187f3ad28e433f4fba2faa0196dafa2
+> git show -s --format=%an <%ae> [%ai] c7ce7e98c64b31378610276b16abf60895428074
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z c7ce7e98c64b31378610276b16abf60895428074
+> git show -s --format=%an <%ae> [%ai] 4659041b063fbe28a666d1e31b1f25d9e97e7e66
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 4659041b063fbe28a666d1e31b1f25d9e97e7e66
+> git show -s --format=%an <%ae> [%ai] 69c889dc1ed2564c0cbd7f6cc385f802d031d007
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 69c889dc1ed2564c0cbd7f6cc385f802d031d007
+> git show -s --format=%an <%ae> [%ai] bb76bfcffc53e3ac1b713af5ab9f69de6b063966
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z bb76bfcffc53e3ac1b713af5ab9f69de6b063966
+> git show -s --format=%an <%ae> [%ai] 72e5d771917e3f11fcda149ec18e756c68626cf2
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 72e5d771917e3f11fcda149ec18e756c68626cf2
+> git show -s --format=%an <%ae> [%ai] 62ac86bbad5e8c7efcfc5df8cb33b437446d8cf3
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 62ac86bbad5e8c7efcfc5df8cb33b437446d8cf3
+> git show -s --format=%an <%ae> [%ai] d0a26a420e003d139863ce52b1132cd298fce1f8
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z d0a26a420e003d139863ce52b1132cd298fce1f8
+> git show -s --format=%an <%ae> [%ai] 40f38dd09a20492af007da28ea12670f21518cdc
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 40f38dd09a20492af007da28ea12670f21518cdc
+> git show -s --format=%an <%ae> [%ai] 4c669dd0f0fd28a0404a048e27d175494efda79e
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 4c669dd0f0fd28a0404a048e27d175494efda79e
+> git show -s --format=%an <%ae> [%ai] 37d077e0c827680e50b4786177c5a6a0150a5310
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 37d077e0c827680e50b4786177c5a6a0150a5310
+> git show -s --format=%an <%ae> [%ai] 3f20e6045e54fe2c72e55cbbad81a3c65cb9ac5a
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 3f20e6045e54fe2c72e55cbbad81a3c65cb9ac5a
+> git show -s --format=%an <%ae> [%ai] c5064e9f7e1ee7d0ad650e139f584ed697e2c216
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z c5064e9f7e1ee7d0ad650e139f584ed697e2c216
+> git show -s --format=%an <%ae> [%ai] 04f2a6a7a8b6ccec6d6327ba8dbd80ff8be12b0b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 04f2a6a7a8b6ccec6d6327ba8dbd80ff8be12b0b
+> git show -s --format=%an <%ae> [%ai] 5699473d07c29cbffdcfa8d931394d46647f1d1a
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 5699473d07c29cbffdcfa8d931394d46647f1d1a
+> git show -s --format=%an <%ae> [%ai] 814a61092cff33d12ab993ce46c3320b1379f82b
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z 814a61092cff33d12ab993ce46c3320b1379f82b
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

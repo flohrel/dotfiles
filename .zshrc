@@ -10,6 +10,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/miniconda3/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -119,7 +120,7 @@ alias ll='ls -lArth'
 alias la='ls -A'
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias cat="ccat"
-alias upd="sudo apt-get update && apt-get dist-upgrade ; python3 -m pip -upgrade pip norminette"
+alias upd="sudo apt-get update && sudo apt-get dist-upgrade ; sudo apt-get autoremove ; python3 -m pip install --upgrade pip && python3 -m pip install --upgrade norminette"
 
 export MAIL='flohrel@student.42.fr'
 export USER='flohrel'

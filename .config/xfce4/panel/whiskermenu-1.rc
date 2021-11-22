@@ -1,5 +1,5 @@
 favorites=terminator.desktop,firefox.desktop,org.keepassxc.KeePassXC.desktop
-recent=org.keepassxc.KeePassXC.desktop,firefox.desktop,terminator.desktop,xfce-keyboard-settings.desktop,xfce-ui-settings.desktop,xfce-display-settings.desktop,xfce-wm-settings.desktop,exo-preferred-applications.desktop,xfce-wmtweaks-settings.desktop,org.gnome.font-viewer.desktop
+recent=org.keepassxc.KeePassXC.desktop,firefox.desktop,terminator.desktop,code.desktop,xfce-keyboard-settings.desktop,xfce-ui-settings.desktop,xfce-display-settings.desktop,xfce-wm-settings.desktop,exo-preferred-applications.desktop,xfce-wmtweaks-settings.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false

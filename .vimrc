@@ -16,7 +16,7 @@ set ttymouse=xterm2
 set noautoindent
 filetype indent plugin on
 " replace blank chars
-set list listchars=tab:│·,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+set list listchars=tab:│\ ,nbsp:␣,trail:•,extends:⟩,precedes:⟨
 " electric parenthesis
 set showmatch
 " syntax color

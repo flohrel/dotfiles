@@ -78,7 +78,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="firefox.instance10735;firefox.instance1896;firefox.instance1962;firefox.instance1969;firefox.instance2075;firefox.instance2149;firefox.instance2182;firefox.instance2213;firefox.instance2222;firefox.instance2266;firefox.instance2327;firefox.instance2397;firefox.instance2538;firefox.instance3014;firefox.instance3019;firefox.instance4045;firefox.instance4545;parole"/>
+      <property name="mpris-players" type="string" value="firefox.instance10735;firefox.instance1896;firefox.instance1962;firefox.instance1969;firefox.instance2075;firefox.instance2149;firefox.instance2182;firefox.instance2213;firefox.instance2222;firefox.instance2266;firefox.instance2327;firefox.instance2372;firefox.instance2397;firefox.instance2412;firefox.instance2419;firefox.instance2423;firefox.instance2477;firefox.instance2515;firefox.instance2538;firefox.instance2608;firefox.instance3001;firefox.instance3014;firefox.instance3019;firefox.instance3300;firefox.instance3346;firefox.instance3370;firefox.instance3389;firefox.instance3469;firefox.instance3514;firefox.instance3957;firefox.instance3994;firefox.instance4045;firefox.instance4277;firefox.instance4545;firefox.instance4706;firefox.instance4711;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-10" type="string" value="separator">

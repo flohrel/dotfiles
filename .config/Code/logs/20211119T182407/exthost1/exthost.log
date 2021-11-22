@@ -1,0 +1,20 @@
+[2021-11-19 18:24:10.404] [exthost] [info] Extension host with pid 3679 started
+[2021-11-19 18:24:10.405] [exthost] [info] Skipping acquiring lock for /home/user42/.config/Code/User/workspaceStorage/d23bfeb659c87dc18c26b22cc8e7962e.
+[2021-11-19 18:24:10.551] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-19 18:24:10.571] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-19 18:24:10.577] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-19 18:24:10.608] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+[2021-11-19 18:24:10.632] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: true, activationEvent: '*'
+[2021-11-19 18:24:11.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-19 18:24:12.670] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-19 18:24:12.685] [exthost] [info] Eager extensions activated
+[2021-11-19 18:24:12.704] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-19 18:24:12.709] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-19 18:24:12.766] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-19 18:24:15.731] [exthost] [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:cpp'
+[2021-11-19 18:24:16.105] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+[2021-11-19 18:39:18.986] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-19 18:39:31.750] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-19 18:40:00.317] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-19 18:40:03.601] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-19 18:40:04.636] [exthost] [info] Extension host with pid 3679 exiting with code 0
