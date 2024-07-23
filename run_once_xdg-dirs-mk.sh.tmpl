@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+dirs=(ZDOTDIR XDG_{CONFIG,CACHE,DATA,STATE}_HOME)
+
+for dir in ${dirs[@]}; do
+  [[ -d "${dir}" ]] || mkdir -p "${dir}"
+done
+

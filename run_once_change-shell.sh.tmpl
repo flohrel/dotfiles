@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+ZSH=$(which zsh)
+
+{{ if eq .chezmoi.os "linux" -}}
+
+[[ -x "${ZSH}" ]] && chsh -s ${ZSH} ${USER}
+
+{{- end }}

@@ -1,0 +1,57 @@
+[init]
+    defaultBranch = main
+
+[user]
+    name = Florian Ohrel
+{{- if eq .chezmoi.hostname "T14-WIN10" }}
+    email = "ohrel.florian@pm.me"
+    signingkey = 100EA06AD26B5047
+{{- end }}
+
+[commit]
+    gpgsign = true
+
+{{ if contains "microsoft" .chezmoi.kernel.osrelease -}}
+[gpg]
+    program = /mnt/c/Program Files (x86)/GnuPG/bin/gpg.exe
+
+[credential]
+    helper = /mnt/c/Program Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
+{{- end }}
+
+[core]
+    editor = code -w
+    autocrlf = false
+    pager = delta
+
+[include]
+    path = /home/gmorizur/.config/delta/themes.gitconfig
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    syntax-theme = TwoDark
+    line-numbers = true
+    zero-style = dim syntax
+    commit-style = raw
+    commit-decoration-style = none
+    dark = true
+    file-style = omit
+    file-decoration-style = none
+    file-added-label = [+]
+    file-copied-label = [==]
+    file-modified-label = [*]
+    file-removed-label = [-]
+    file-renamed-label = [->]
+    hunk-header-decoration-style = "#3e3e43" box ul
+    hunk-header-file-style = "#999999"
+    hunk-header-line-number-style = bold "#03a4ff"
+    hunk-header-style = file line-number syntax
+    line-numbers = true
+    line-numbers-left-style = black
+    line-numbers-minus-style = brightred
+    line-numbers-plus-style = brightgreen
+    line-numbers-right-style = black
+    line-numbers-zero-style = "#999999"
+    whitespace-error-style = "#280050" reverse

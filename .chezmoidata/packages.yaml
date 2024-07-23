@@ -1,0 +1,15 @@
+packages:
+  linux:
+      tumbleweed:
+        zypper:
+          - 'coreutils'
+          - 'man'
+          - 'man-pages'
+          - 'man-pages-posix'
+          - 'git'
+          - 'zsh'
+          - 'neovim'
+          - 'ripgrep'
+          - 'bat'
+          - 'tree'
+          - 'git-delta'

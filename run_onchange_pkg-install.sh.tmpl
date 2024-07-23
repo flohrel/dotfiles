@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+{{ if eq .chezmoi.osRelease.id "opensuse-tumbleweed" -}}
+{{ range .packages.linux.tumbleweed.zypper -}}
+sudo zypper install -f {{ . | quote }}
+{{ end }}
+{{ end -}}
