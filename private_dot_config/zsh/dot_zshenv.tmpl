@@ -5,3 +5,9 @@ export PATH
 export VISUAL=nvim
 export EDITOR=nvim
 export PAGER=bat
+
+export XDG_CONFIG_HOME={{ joinPath .chezmoi.homeDir "/.config" }}
+export XDG_CACHE_HOME={{ joinPath .chezmoi.homeDir "/.cache" }}
+export XDG_DATA_HOME={{ joinPath .chezmoi.homeDir "/.local/share" }}
+export XDG_STATE_HOME={{ joinPath .chezmoi.homeDir "/.local/state" }}
+export ZDOTDIR={{ joinPath .chezmoi.homeDir "/.config/zsh" }}
