@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+if [ $# -ne 1 ]; then
+	echo "Usage : $0 /dev/sdX"
+	exit
+elif [ $EUID -ne 0 ]; then
+	echo "Please run as root"
+	exit
+fi
+
+lsblk | grep ${1##*/} &>/dev/null
+
+if [ $? -ne 0 ]; then
+	echo "Partition not found"
+	exit
+fi
+
+DiskSize=$(fdisk -l $1 | head -n 1 | cut -d ' ' -f 5)
+PhysicalSectorSize=$(fdisk -l $1 | grep physical | cut -d ' ' -f 7)
+AllDiskPhysicalSectors=$(( ${DiskSize} / ${PhysicalSectorSize} ))
+DataSource=/dev/urandom
+
+read -r -p "Do you really want to wipe $1 ? [y/N] " response
+case "$response" in
+	[yY][eE][sS]|[yY])
+		dd if=${DataSource} of=${1} bs=${PhysicalSectorSize} count=${AllDiskPhysicalSectors} seek=0 status=progress
+		;;
+	*)
+		echo "Abort"
+		exit
+esac
+
+exit

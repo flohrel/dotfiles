@@ -1,0 +1,93 @@
+{
+  // ========== Visuals ==========
+  "better-comments.highlightPlainText": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "400",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.rulers": [
+    80
+  ],
+  "editor.autoIndent": "full",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "window.zoomLevel": -1,
+  // ========== Editor ==========
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "always",
+    "source.addMissingImports": "always",
+    "source.removeUnusedImports": "explicit"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "astro"
+  ],
+  // ========== Language specific ==========
+  "[git-commit]": {
+    "editor.rulers": [
+      50
+    ]
+  },
+  "[python]": {
+    "editor.tabSize": 2,
+    "editor.rulers": [
+      120
+    ],
+  },
+  "[c][cpp]": {
+    "editor.rulers": [
+      80
+    ],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  // ========== Other ==========
+  "debug.terminal.clearBeforeReusing": true,
+  "git.path": "/usr/bin/git",
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "git.openRepositoryInParentFolders": "prompt",
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "security.allowedUNCHosts": [
+    "wsl.localhost",
+    "wsl$"
+  ],
+  "task.allowAutomaticTasks": "on",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "terminal"
+  // "tailwindCSS.emmetCompletions": true,
+  // "files.associations": {
+  //   "*.css": "tailwindcss"
+  // },
+}

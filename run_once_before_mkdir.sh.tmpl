@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+XDG_CONFIG_HOME={{ joinPath .chezmoi.homeDir "/.config" }}
+XDG_CACHE_HOME={{ joinPath .chezmoi.homeDir "/.cache" }}
+XDG_DATA_HOME={{ joinPath .chezmoi.homeDir "/.local/share" }}
+XDG_STATE_HOME={{ joinPath .chezmoi.homeDir "/.local/state" }}
+ZDOTDIR={{ joinPath .chezmoi.homeDir "/.config/zsh" }}
+
+dirs=(ZDOTDIR XDG_{CONFIG,CACHE,DATA,STATE}_HOME)
+
+for dir in ${dirs[@]}; do
+  [[ -d "${!dir}" ]] || mkdir -p "${!dir}"
+  export ${dir}=${!dir}
+done
+
