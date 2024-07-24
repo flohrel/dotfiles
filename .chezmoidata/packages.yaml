@@ -15,4 +15,4 @@ packages:
           - 'tree'
           - 'git-delta'
         pattern:
-          - 'devel-basis'
+          - 'devel_basis'

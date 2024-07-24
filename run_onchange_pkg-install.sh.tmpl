@@ -4,6 +4,7 @@
 {{ range .packages.linux.tumbleweed.zypper.pkg -}}
 sudo zypper install -t package {{ . | quote }}
 {{ end }}
-{{ range .packages.linux.tumbleweed.zypper.pattern -}}
+{{- range .packages.linux.tumbleweed.zypper.pattern -}}
 sudo zypper install -t pattern {{ . | quote }}
+{{ end }}
 {{ end }}
