@@ -15,8 +15,6 @@
 .vscode-remote-containers/**
 .vscode-server/**
 !.vscode-server/data/Machine/settings.json
-.zsh_history
-
 
 {{ if contains "microsoft" .chezmoi.kernel.osrelease -}}
 .dotnet
