@@ -1,0 +1,5 @@
+alias nv="nvim"
+alias vi="vim"
+alias ggc="gcc -Wall -Wextra -Werror"
+alias cm="chezmoi"
+alias pn="pnpm"
