@@ -1,6 +1,7 @@
 .config/zsh/.zcompdump*
 .cache/**
 .config/chezmoi/**
+.config/nvim/lazy-lock.json
 .config/oh-my-zsh/plugins/**
 .config/oh-my-zsh/themes/**
 .config/tmux/plugins/**
