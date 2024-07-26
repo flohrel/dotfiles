@@ -14,5 +14,6 @@ packages:
           - 'bat'
           - 'tree'
           - 'git-delta'
+          - 'cargo'
         pattern:
           - 'devel_basis'
