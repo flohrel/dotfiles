@@ -8,7 +8,9 @@ export XDG_DATA_HOME={{ joinPath .chezmoi.homeDir "/.local/share" }}
 export XDG_STATE_HOME={{ joinPath .chezmoi.homeDir "/.local/state" }}
 export ZDOTDIR={{ joinPath .chezmoi.homeDir "/.config/zsh" }}
 
-export PNPM_HOME="/home/gmorizur/.local/share/pnpm"
+export PNPM_HOME="{{- .chezmoi.homeDir -}}/.local/share/pnpm"
+
+export CARGO_HOME="{{- .chezmoi.homeDir -}}/.cache/cargo"
 
 {{ if contains "opensuse" .chezmoi.osRelease.idLike -}}
 # Fix for tmux on openSuse with WSL2
