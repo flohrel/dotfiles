@@ -10,6 +10,11 @@ export ZDOTDIR={{ joinPath .chezmoi.homeDir "/.config/zsh" }}
 
 export PNPM_HOME="/home/gmorizur/.local/share/pnpm"
 
+{{ if contains "opensuse" .chezmoi.osRelease.idLike -}}
+# Fix for tmux on openSuse with WSL2
+export TMUX_TMPDIR="/tmp"
+{{- end }}
+
 #
 ## oh-my-zsh
 #
@@ -19,8 +24,8 @@ export ZSH_CUSTOM="${XDG_CONFIG_HOME}/oh-my-zsh"
 export NVM_COMPLETION=true
 export NVM_LAZY_LOAD=true
 ### tmux plugin
-export ZSH_TMUX_AUTOSTART=true
-export ZSH_TMUX_DEFAULT_SESSION_NAME="$(whoami)@$(hostname --fqdn)"
+#export ZSH_TMUX_AUTOSTART=false
+#export ZSH_TMUX_DEFAULT_SESSION_NAME="$(whoami)@$(hostname --fqdn)"
 
 #
 ## path
