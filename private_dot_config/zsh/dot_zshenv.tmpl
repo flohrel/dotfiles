@@ -10,7 +10,7 @@ export ZDOTDIR={{ joinPath .chezmoi.homeDir "/.config/zsh" }}
 
 export PNPM_HOME="{{- .chezmoi.homeDir -}}/.local/share/pnpm"
 
-export CARGO_HOME="{{- .chezmoi.homeDir -}}/.cache/cargo"
+export CARGO_HOME="{{- .chezmoi.homeDir -}}/.local/share/cargo"
 
 {{ if contains "opensuse" .chezmoi.osRelease.idLike -}}
 # Fix for tmux on openSuse with WSL2
