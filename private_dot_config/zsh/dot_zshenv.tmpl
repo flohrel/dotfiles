@@ -10,13 +10,18 @@ export ZDOTDIR={{ joinPath .chezmoi.homeDir "/.config/zsh" }}
 
 export PNPM_HOME="/home/gmorizur/.local/share/pnpm"
 
-# zsh-nvm plugin
+#
+## oh-my-zsh
+#
+export ZSH="$HOME/.oh-my-zsh"
+export ZSH_CUSTOM="${XDG_CONFIG_HOME}/oh-my-zsh"
+### zsh-nvm plugin
 export NVM_COMPLETION=true
 export NVM_LAZY_LOAD=true
 
-export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="${XDG_CONFIG_HOME}/oh-my-zsh"
-
+#
+## path
+#
 typeset -U path PATH
 path=(~/.local/bin $PNPM_HOME $path)
 export PATH
