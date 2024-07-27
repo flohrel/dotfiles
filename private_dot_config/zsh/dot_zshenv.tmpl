@@ -8,9 +8,9 @@ export XDG_DATA_HOME={{ joinPath .chezmoi.homeDir "/.local/share" }}
 export XDG_STATE_HOME={{ joinPath .chezmoi.homeDir "/.local/state" }}
 export ZDOTDIR={{ joinPath .chezmoi.homeDir "/.config/zsh" }}
 
-export PNPM_HOME="{{- .chezmoi.homeDir -}}/.local/share/pnpm"
-
-export CARGO_HOME="{{- .chezmoi.homeDir -}}/.local/share/cargo"
+export NVM_DIR="${XDG_DATA_HOME}/nvm"
+export PNPM_HOME="${XDG_DATA_HOME}/pnpm"
+export CARGO_HOME="${XDG_DATA_HOME}/cargo"
 
 {{ if contains "opensuse" .chezmoi.osRelease.idLike -}}
 # Fix for tmux on openSuse with WSL2
@@ -25,9 +25,6 @@ export ZSH_CUSTOM="${XDG_CONFIG_HOME}/oh-my-zsh"
 ### zsh-nvm plugin
 export NVM_COMPLETION=true
 export NVM_LAZY_LOAD=true
-### tmux plugin
-#export ZSH_TMUX_AUTOSTART=false
-#export ZSH_TMUX_DEFAULT_SESSION_NAME="$(whoami)@$(hostname --fqdn)"
 
 #
 ## path
