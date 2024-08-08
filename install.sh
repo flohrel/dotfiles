@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # -e: exit on error
 # -u: exit on unset variables
@@ -20,10 +20,15 @@ if ! chezmoi="$(command -v chezmoi)"; then
 	unset chezmoi_install_script bin_dir
 fi
 
-# POSIX way to get script's dir: https://stackoverflow.com/a/29834779/12156188
-script_dir="$(cd -P -- "$(dirname -- "$(command -v -- "$0")")" && pwd -P)"
+SCRIPT_DIR="$(dirname -- "${BASH_SOURCE[0]}")"            # relative
+SCRIPT_DIR="$(cd -- "$SCRIPT_DIR" && pwd)"    # absolutized and normalized
+if [[ -z "$SCRIPT_DIR" ]] ; then
+  # error; for some reason, the path is not accessible
+  # to the script (e.g. permissions re-evaled after suid)
+  exit 1  # fail
+fi
 
-set -- init --apply --source="${script_dir}"
+set -- init --apply --source="${SCRIPT_DIR}"
 
 echo "Running 'chezmoi $*'" >&2
 # exec: replace current process with chezmoi

@@ -1,10 +1,20 @@
 #!/usr/bin/env bash
 
-{{ if eq .chezmoi.osRelease.id "opensuse-tumbleweed" -}}
+{{ if contains "opensuse" .chezmoi.osRelease.id -}}
 {{ range .packages.linux.tumbleweed.zypper.pkg -}}
 zypper search -i -t package {{ . | quote }} &>/dev/null || sudo zypper install -t package {{ . | quote }}
 {{ end }}
 {{- range .packages.linux.tumbleweed.zypper.pattern -}}
 zypper search -i -t pattern {{ . | quote }} &>/dev/null || sudo zypper install -t pattern {{ . | quote }}
+{{ end }}
+{{ end }}
+
+{{ if contains "debian" .chezmoi.osRelease.id -}}
+{{ range .packages.debian.apt -}}
+sudo apt-get -qq install -y {{ . | quote }}
+{{ end }}
+{{ range .packages.debian.dpkg -}}
+wget -c -O ~/{{ . | base }} &>/dev/null
+sudo dpkg -i ~/{{ . | base }} &>/dev/null
 {{ end }}
 {{ end }}

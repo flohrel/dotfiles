@@ -3,18 +3,30 @@ packages:
     tumbleweed:
       zypper:
         pkg:
-          - 'coreutils'
-          - 'man'
-          - 'man-pages'
-          - 'man-pages-posix'
-          - 'git'
-          - 'zsh'
-          - 'neovim'
-          - 'ripgrep'
-          - 'bat'
-          - 'tree'
-          - 'git-delta'
-          - 'cargo'
-          - 'rsync'
+          - "coreutils"
+          - "man"
+          - "man-pages"
+          - "man-pages-posix"
+          - "git"
+          - "zsh"
+          - "neovim"
+          - "ripgrep"
+          - "bat"
+          - "tree"
+          - "git-delta"
+          - "cargo"
+          - "rsync"
         pattern:
-          - 'devel_basis'
+          - "devel_basis"
+    debian:
+      apt:
+        - "coreutils"
+        - "git"
+        - "neovim"
+        - "tmux"
+        - "bat"
+        - "tree"
+        - "ripgrep"
+        - "rsync"
+      dpkg:
+        - "https://github.com/dandavison/delta/releases/download/0.17.0/git-delta_0.17.0_amd64.deb"
