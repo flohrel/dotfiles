@@ -16,6 +16,7 @@
 .vscode-remote-containers/**
 .vscode-server/**
 !.vscode-server/data/Machine/settings.json
+install.sh
 
 {{ if contains "microsoft" .chezmoi.kernel.osrelease -}}
 .dotnet
