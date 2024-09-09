@@ -14,7 +14,6 @@ packages:
           - "bat"
           - "tree"
           - "git-delta"
-          - "cargo"
           - "rsync"
         pattern:
           - "devel_basis"
