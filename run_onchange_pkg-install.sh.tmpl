@@ -10,11 +10,12 @@ zypper search -i -t pattern {{ . | quote }} &>/dev/null || sudo zypper install -
 {{ end }}
 
 {{ if contains "debian" .chezmoi.osRelease.id -}}
-{{ range .packages.debian.apt -}}
-sudo apt-get -qq install -y {{ . | quote }}
+{{ range .packages.linux.debian.apt -}}
+dpkg-query -w {{ . | quote }} &>/dev/null || sudo apt-get -qq install -y {{ . | quote }}
 {{ end }}
-{{ range .packages.debian.dpkg -}}
+{{ range .packages.linux.debian.dpkg -}}
 wget -c -O ~/{{ . | base }} &>/dev/null
 sudo dpkg -i ~/{{ . | base }} &>/dev/null
 {{ end }}
 {{ end }}
+
