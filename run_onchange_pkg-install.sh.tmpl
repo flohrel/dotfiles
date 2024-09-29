@@ -7,14 +7,14 @@ zypper search -i -t package {{ . | quote }} &>/dev/null || sudo zypper install -
 {{ range .packages.linux.tumbleweed.zypper.pattern -}}
 zypper search -i -t pattern {{ . | quote }} &>/dev/null || sudo zypper install -t pattern {{ . | quote }}
 {{ end }}
-{{ end }}
+{{ end -}}
 
 {{ if contains "debian" .chezmoi.osRelease.id -}}
 {{ range .packages.linux.debian.apt -}}
-dpkg-query -w {{ . | quote }} &>/dev/null || sudo apt-get -qq install -y {{ . | quote }}
+dpkg-query -W {{ . | quote }} &>/dev/null || sudo apt-get -qq install -y {{ . | quote }}
 {{ end -}}
 {{ range .packages.linux.debian.dpkg -}}
 wget -c -O ~/{{ . | base }} &>/dev/null
 sudo dpkg -i ~/{{ . | base }} &>/dev/null
 {{ end }}
-{{ end }}
+{{ end -}}
