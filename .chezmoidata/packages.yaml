@@ -15,6 +15,7 @@ packages:
           - "tree"
           - "git-delta"
           - "rsync"
+          - "go"
         pattern:
           - "devel_basis"
     debian:
